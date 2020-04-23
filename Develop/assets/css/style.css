@@ -60,7 +60,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-/*article class for sections*/
+/*main class for sections*/
 .content {
     width: 75%;
     display: inline-block;
@@ -136,6 +136,6 @@ footer {
     text-align: center;
 }
 
-footer, h2 {
+footer, h4 {
     font-size: 20px;
 }
