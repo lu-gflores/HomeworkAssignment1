@@ -7,24 +7,24 @@
 body {
     background-color: #d9dcd6;
 }
-/*Header Section */
-.header {
+/*Header class */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 /*formating header class and nav links*/
-.header div, nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,23 +32,25 @@ body {
     font-size: 20px;
 }
 
-.header nav, div, ul {
+header nav, ul {
     list-style-type: none;
 }
 
-.header nav, ul, li {
+header nav, ul, li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*anchor tag color and no underline*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*p tag font-size */
 p {
     font-size: 16px;
 }
+
 /*Main image*/
 .hero {
     height: 800px;
@@ -65,7 +67,7 @@ p {
     margin-left: 20px;
 }
 
-/*floating images for section images in Content*/
+/*floating images for section images in Content class*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -96,7 +98,7 @@ p {
     font-size: 36px;
 }
 
-/* Aside elements */
+/* Aside/Benefits class  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -108,13 +110,11 @@ p {
     background-color: #2589bd;
 }
 
+/*Benefit images classes*/
 .benefit-lead, .benefit-brand, .benefit-cost  {
     margin-bottom: 32px;
     color: #ffffff;
-
-
 }
-
 
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
@@ -128,15 +128,14 @@ p {
     max-width: 150px;
 }
 
-
-/*footer class formatting*/
-.footer {
+/*footer formatting*/
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer, h2 {
     font-size: 20px;
 }
