@@ -1,12 +1,9 @@
-# 01 HTML CSS Git: Code Refactor
+# Horiseon 
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities or socio-economic restrictions have access to their website, and helping them avoid litigation.
+## Description
+This project originially contained only non-semantic elements which made web accessiblity difficult. These elements also made the code difficult for developers to read since they do not specify their purpose. Finally, because the code contained non-semantic tags, this makes search engines difficult to understand what the page is about and may not appear as frequently in the search results. As a beginner, this project serves as good practice on how to change the code so that it is accessible. 
+The purpose of this project was to refactor the exisiting code so that it meets the standard requirements for web accessibility and restructure the elements as necessary. To make sure that I achieve these goals, I kept the follow user story and acceptance criteria in mind.
 
-Your task is to refactor an existing webpage to make it accessible. An important rule to follow when working with someone else's code is the Scout Rule:
-
-> Always leave the code you are editing a little cleaner than you found it.
-
-To impress clients, you should always go the extra mile and improve their codebase for long term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
 
 ## User Story
 
@@ -31,14 +28,6 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 ```
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
